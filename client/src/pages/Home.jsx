@@ -13,7 +13,7 @@ const Home = () => {
     <AnimatePresence>
         {snap.intro && (
             <motion.section className='home ' {...slideAnimation('left')}>
-                <motion.header {...slideAnimation('down')} className='flex justify-between w-[185%]'>
+                <motion.header {...slideAnimation('down')} className='flex space-x-6'>
                     <img src='./threejs.png' alt='threejs' className='w-8 h-8 object-contain'/>
                     <a href='http://www.vadimboot.com' target='_blank' className=' h-8 object-contain font-[Inter] text-xl font-bold cursor-pointer hover:underline'>Vadim Boot</a>
                 </motion.header>
